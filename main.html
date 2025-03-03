@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body class="bg-[#F4F7FF] p-5">
+    <header>
+        <nav class="max-w-screen-xl mx-auto  ">
+            <div class="flex justify-between bg-white p-6 py-6 shadow-lg rounded-lg">
+                <div class="flex items-center gap-2">
+                    <img class="w-12" src="assets/logo.png" alt="">
+                    <h4 class="text-3xl font-bold"><span class="text-3xl font-normal">Dev</span>Board</h4>
+                </div>
+                <div class="flex items-center gap-12">
+
+                    <button id="back-btn" class="bg-indigo-700 text-white py-2 px-4 rounded-lg">Back to Desk</button>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-screen-xl mx-auto ">
+        <div class="mt-5">
+            <h1 class="text-3xl font-bold text-center">Blogs</h1>
+        </div>
+        <div class="bg-white p-5 rounded-lg mt-5">
+            <h2 class="text-3xl font-bold border-b-2 py-5">Question-1: What are the different ways to select an element in the DOM?</h2>
+            <p class="mt-5 text-lg">different way is id, class , tag-name, quarySelector etc....</p>
+        </div>
+        <div class="bg-white p-5 rounded-lg mt-5">
+            <h2 class="text-3xl font-bold border-b-2 py-5">Question-2: What is the 
+                difference between innerHTML, innerText, and textContent ? </h2>
+            
+            <p class="mt-5 text-lg">innerHTML HTML ট্যাগসহ পুরো কনটেন্ট নেয় 
+                and innerText শুধুমাত্র টেক্সট নেয় 
+                and textContent পুরো টেক্সট নেয়,
+            </p>
+        </div>
+        <div class="bg-white p-5 rounded-lg mt-5">
+            <h2 class="text-3xl font-bold border-b-2 py-5">Question-3: What is event delegation in the DOM? </h2>
+            
+            <p class="mt-5 text-sm">textContent Event Delegation হলো  একটি প্যারেন্ট এলিমেন্ট এভেন্ট হ্যান্ডলার অ্যাটাচ করা হয় 
+            </p>
+        </div>
+        <div class="bg-white p-5 rounded-lg mt-5">
+            <h2 class="text-3xl font-bold border-b-2 py-5">Question-4: What is event bubbling in the DOM?
+            <p class="mt-5 text-sm">Event Bubbling DOM =  যেখানে একটি ইভেন্ট প্রথমে চাইল্ড এলিমেন্ট-এ ট্রিগার হয় এবং তারপর ধীরে ধীরে প্যারেন্ট এলিমেন্ট (এবং এর উপরের সব এলিমেন্ট) পর্যন্ত বাবল হয়।
+            </p>
+        </div>
+        <div class="bg-white p-5 rounded-lg mt-5">
+            <h2 class="text-3xl font-bold border-b-2 py-5">Question-5: How do you create, add, and remove elements using JavaScript?
+            <p class="mt-5 text-sm">
+               create = document.createElement('tag-name'). add = appendChild() . remove = removeChild()
+            </p>
+        </div>
+    </main>
+    <script src="btn.js"></script>
+</body>
+</html>
